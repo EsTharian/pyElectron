@@ -1,0 +1,24 @@
+{
+  "name": "pyElectron",
+  "main": "js/main.js",
+  "version": "0.0.1",
+  "description": "Efficient and simple study application",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "study",
+    "work",
+    "lessons",
+    "university",
+    "exams"
+  ],
+  "author": "EsTharian",
+  "dependencies": {
+    "zerorpc": "fyears/zerorpc-node"
+  },
+  "devDependencies": {
+    "electron": "^1.7.6",
+    "electron-packager": "^9.1.0"
+  }
+}

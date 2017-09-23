@@ -1,0 +1,188 @@
+@font-face {
+    font-family: f;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: fb;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: fxb;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: fl;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: fil;
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: fb, sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: f, sans-serif;
+}
+
+section.inactive {
+    display: none;
+}
+
+nav {
+    float: left;
+    min-width: 200px;
+    max-width: 90%;
+    width: 345px;
+    height: 100%;
+    background: #f7f7ff;
+}
+
+.titlebar {
+    width: 100%;
+    height: 30px;
+    background: #f7f7ff;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -webkit-app-region: drag;
+}
+
+.title {
+    font-size: 11pt;
+    float: left;
+    color: #666;
+    line-height: 30px;
+    margin-left: 10px;
+    font-family: fb, sans-serif;
+    user-select: none;
+    cursor: default;
+}
+
+.winButton {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    float: right;
+    cursor: default;
+    -webkit-app-region: no-drag;
+}
+
+.winButton .fa {
+    -webkit-filter: drop-shadow(0 0 1px rgba(0,0,0,0.3));
+}
+
+.closeButton {
+    background: #c11;
+}
+
+.closeButton:hover {
+    background: #e11;
+}
+
+.maxButton {
+    color: #666;
+}
+
+.maxButton .fa-window-restore {
+    display: none;
+}
+
+.maxButton:hover {
+    color: #999;
+}
+
+.resButton {
+    color: #666;
+}
+
+.resButton .fa-window-maximize {
+    display: none;
+}
+
+.resButton:hover {
+    color: #999;
+}
+
+.minButton {
+    color: #666;
+}
+
+.minButton:hover {
+    color: #999;
+}
+
+.fllButton {
+    color: #666;
+}
+
+.fllButton .fa-compress {
+    display: none;
+}
+
+.zipButton {
+    color: #666;
+}
+
+.zipButton:hover {
+    color: #999;
+}
+
+.zipButton .fa-expand {
+    display: none;
+}
+
+.fllButton:hover {
+    color: #999;
+}
+
+.sizer {
+    background: #f7f7ff;
+    float: left;
+    width: 5px;
+    cursor: ew-resize;
+    height: 100%;
+    box-shadow: 3px 0 1px rgba(0,0,0,0.1);
+}
+
+main {
+    padding-top: 50px;
+    float: left;
+    max-width: 100%;
+    height: 100%;
+}
+
+.nav-header {
+    margin: 50px 10px 20px;
+    border-bottom: solid 1px #aaa;
+}
+
+.nav-header span {
+    font-family: fxb, sans-serif;
+    margin-left: 10px;
+    font-size: 10pt;
+    color: rgb(102, 102, 170);
+    margin-bottom: 10px;
+    display: block;
+}
